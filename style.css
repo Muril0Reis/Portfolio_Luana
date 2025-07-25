@@ -472,4 +472,32 @@ section{
     .projects {
         padding: 5rem 2rem;
     }
+
+    .projects-box {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        row-gap: 3rem;
+    }
+
+    .project-card {
+        padding: 1.5rem;
+    }
+
+    .project-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .project-card h3 {
+        font-size: 2.4rem;
+    }
+
+    .project-card p {
+        font-size: 1.4rem;
+    }
+
+    .project-card .btn {
+        font-size: 1.6rem;
+        padding: 0.8rem 1.8rem;
+    }
 }
