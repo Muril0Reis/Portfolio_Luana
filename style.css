@@ -71,11 +71,7 @@ body {
 }
 
 span {
-    background: linear-gradient(
-        270deg,
-        #d9a26c 10%,
-        #8c5c3f 100%
-    );
+    background: #d9a26c;
     background-clip: text;
     color: transparent;
 }
@@ -97,11 +93,7 @@ span {
     font-size: 1.8rem;
     padding: 1rem 2rem;
     border-radius: 3rem;
-    background: linear-gradient(
-        270deg,
-        #d9a26c 10%,
-        #8c5c3f 100%
-    );
+    background: #d9a26c;
     letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
